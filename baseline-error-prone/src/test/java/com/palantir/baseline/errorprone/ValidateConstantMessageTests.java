@@ -133,7 +133,7 @@ public final class ValidateConstantMessageTests {
                         "    Validate.inclusiveBetween(0.0, 1.0, 0.5, \"message\");",
                         "    Validate.exclusiveBetween(BigDecimal.ZERO, BigDecimal.TEN, BigDecimal.ONE,"
                                 + " \"message %s %s\", \"msg\", \"msg\");",
-                        "    Validate.exclusiveBetween(0L, 100L, 50L, \"message\");",
+                        "    Validate.exclusiveBetween(0L, 100L, 50L, \"message %s\", stringArg);",
                         "    Validate.exclusiveBetween(0.0, 1.0, 0.5, \"message\");",
                         "    Validate.isInstanceOf(BigDecimal.class, BigDecimal.ONE,"
                                 + " \"message %s %s\", \"msg\", \"msg\");",
